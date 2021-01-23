@@ -1,0 +1,4 @@
+0      0   *   *   *    /sbin/shutdown -r
+*/12   0   *   *   *    /etc/init.d/tor restart
+*/12   0   *   *   *    /etc/init.d/privoxy restart
+*/12   0   *   *   *    /etc/init.d/squid restart
